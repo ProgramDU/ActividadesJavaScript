@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de proyectos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            color: #fff;
+            background: linear-gradient(135deg, #ff00cc, #3300ff, #00ccff, #00ff66);
+            background-size: 400% 400%;
+            animation: gradientAnimation 15s ease infinite;
+        }
+
+        h1 {
+            color: #fff;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        a {
+            display: inline-block;
+            background-color: #300452;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+
+        a:hover {
+            background-color: #5b189e;
+            box-shadow: 0 0 10px #58648e;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Mis Proyectos</h1>
+    <ul>
+        <li><a href="./dom/colorsrgba.html">RGBA Input</a></li>
+        <li><a href="./dom/colorsrggb.html">RGB Random</a></li>
+        <li><a href="./dom/galeria.html">Galeria</a></li>
+        <li><a href="./dom/tareas.html">Lista de Tareas</a></li>
+        <li><a href="./GraphicCanvas/animado.html">Colores</a></li>
+        <li><a href="./GraphicCanvas/bolita.html">Rebota</a></li>
+        <li><a href="./GraphicCanvas/dibujo.html">Dibujo</a></li>
+        <li><a href="./GraphicCanvas/direcciones.html">Comiendo</a></li>
+        <li><a href="./GraphicCanvas/snake.html">Juego de Snake</a></li>
+        <li><a href="./Apis/app1.html">Rick and Morty</a></li>
+    </ul>
+</body>
+</html>
